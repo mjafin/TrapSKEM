@@ -274,7 +274,7 @@ Rectangle {
             id: insertextboxText
             width: insertextbox.width
             wrapMode: Text.Wrap
-            text: "Use both thumbs to create a trap on screen. Catch an enemy in the trap and shake the device for a kill! Don't kill the friendly U.F.O:s though! The circle at the top right corner indicates how many traps remain by getting smaller in diameter after each deployed trap. Segments of the circle are also eaten away by time! <br /> Images: ESA/NASA http://www.spacetelescope.org/"
+            text: "Use both thumbs to create a trap on screen. Catch an enemy in the trap and shake the device for a kill! Don't kill the friendly U.F.O:s though! The circle at the top right corner indicates how many traps remain by getting smaller in diameter after each deployed trap. Segments of the circle are also eaten away by time! <br /> Images: ESA/NASA http://www.spacetelescope.org/<br />Music: http://www.dreamstate.to/"
             anchors.fill: insertextbox
             //anchors.verticalCenter: instr.verticalCenter
             font.pixelSize: Math.floor(startGameText.font.pixelSize*0.8); font.bold: false
