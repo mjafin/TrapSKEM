@@ -1,4 +1,4 @@
-APP_NAME = testapp
+APP_NAME = TrapSKEM
 
 CONFIG += qt warn_on cascades10 mobility
 QT += core declarative opengl

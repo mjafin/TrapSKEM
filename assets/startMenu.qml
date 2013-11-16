@@ -97,7 +97,7 @@ Rectangle {
     }
     Rectangle {
         id: continueGame
-        width: startmenu.width/3
+        width: startmenu.width/2.5
         height: startmenu.width/9
         opacity: 0.2 + levelContinuable*0.5
         gradient: Gradient {

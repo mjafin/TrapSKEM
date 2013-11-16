@@ -20,9 +20,8 @@ static qreal normalizeAngle(qreal angle)
     return angle;
 }
 
-//! [0]
+// ! [0]
 Creature::Creature(QGraphicsItem * myParent = 0)
-    //: QGraphicsItem(myParent), myAngle(0), mySpeed(0), myMaxSpeed(5),
     : QGraphicsObject(myParent), myAngle(0), mySpeed(0), myMaxSpeed(5),
       myAmIDead(false), myAccelerometer(0),
       myAllEnemiesKilled(false)
@@ -31,7 +30,7 @@ Creature::Creature(QGraphicsItem * myParent = 0)
     myIsCaught = false; // by default the Creature is not caught by the user
     myAccelerometer = new QAccelerometer;
 }
-//! [0]
+// ! [0]
 Creature::~Creature()
 {
     myAccelerometer->stop();

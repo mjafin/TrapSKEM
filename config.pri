@@ -4,6 +4,7 @@ BASEDIR =  $$quote($$_PRO_FILE_PWD_)
 device {
     CONFIG(debug, debug|release) {
         SOURCES +=  $$quote($$BASEDIR/src/ally.cpp) \
+                 $$quote($$BASEDIR/src/applicationui.cpp) \
                  $$quote($$BASEDIR/src/bgtouch.cpp) \
                  $$quote($$BASEDIR/src/bigboss.cpp) \
                  $$quote($$BASEDIR/src/creature.cpp) \
@@ -12,6 +13,7 @@ device {
                  $$quote($$BASEDIR/src/mygraphicsscene.cpp)
 
         HEADERS +=  $$quote($$BASEDIR/src/ally.h) \
+                 $$quote($$BASEDIR/src/applicationui.hpp) \
                  $$quote($$BASEDIR/src/bgtouch.h) \
                  $$quote($$BASEDIR/src/bigboss.h) \
                  $$quote($$BASEDIR/src/creature.h) \
@@ -21,6 +23,7 @@ device {
 
     CONFIG(release, debug|release) {
         SOURCES +=  $$quote($$BASEDIR/src/ally.cpp) \
+                 $$quote($$BASEDIR/src/applicationui.cpp) \
                  $$quote($$BASEDIR/src/bgtouch.cpp) \
                  $$quote($$BASEDIR/src/bigboss.cpp) \
                  $$quote($$BASEDIR/src/creature.cpp) \
@@ -29,6 +32,7 @@ device {
                  $$quote($$BASEDIR/src/mygraphicsscene.cpp)
 
         HEADERS +=  $$quote($$BASEDIR/src/ally.h) \
+                 $$quote($$BASEDIR/src/applicationui.hpp) \
                  $$quote($$BASEDIR/src/bgtouch.h) \
                  $$quote($$BASEDIR/src/bigboss.h) \
                  $$quote($$BASEDIR/src/creature.h) \
@@ -40,6 +44,7 @@ device {
 simulator {
     CONFIG(debug, debug|release) {
         SOURCES +=  $$quote($$BASEDIR/src/ally.cpp) \
+                 $$quote($$BASEDIR/src/applicationui.cpp) \
                  $$quote($$BASEDIR/src/bgtouch.cpp) \
                  $$quote($$BASEDIR/src/bigboss.cpp) \
                  $$quote($$BASEDIR/src/creature.cpp) \
@@ -48,6 +53,7 @@ simulator {
                  $$quote($$BASEDIR/src/mygraphicsscene.cpp)
 
         HEADERS +=  $$quote($$BASEDIR/src/ally.h) \
+                 $$quote($$BASEDIR/src/applicationui.hpp) \
                  $$quote($$BASEDIR/src/bgtouch.h) \
                  $$quote($$BASEDIR/src/bigboss.h) \
                  $$quote($$BASEDIR/src/creature.h) \
